@@ -1,0 +1,133 @@
+
+.app-container{
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+.card-container{
+    background-color: #ffffff;
+    width: 85%;
+    border-radius: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 768px) {
+    .card-container {
+        width: 70%;
+    }
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    max-width: 972px;
+    
+}
+
+.input{
+    background-color: white;
+    width: 95%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+.button-btn {
+    background-color: #8b5cf6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-self: flex-start;
+  }
+  .My-heading{
+    color: black;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-family: "Sans-serif";
+  }
+.to-do-heading{
+    background-color: yellow;
+}
+
+.label{
+    font-family: "Roboto";
+   font-size: 32px;
+   font-weight: 500;
+}
+.create-heading{
+   font-family: "Roboto";
+   font-size: 32px;
+   font-weight: 700;
+}
+.add-task-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 64px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 12px;
+}
+.line{
+    border: 1px solid #b5b7c4;
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+.my-task-heading{
+    font-family: "Roboto";
+   font-size: 32px;
+   font-weight: 500;
+   align-self: flex-start;
+}
+.my-heading{
+    font-family: "Roboto";
+   font-size: 32px;
+   font-weight: 700;
+}
+.img {
+    height: 200px;
+    width: 280px;
+    margin-left: 22px;
+    align-self: center;
+  }
+
+@media screen and (max-width:578px){
+    .img{
+        height: 120px;
+        width: 150px;
+        align-self: center;
+    }
+}
