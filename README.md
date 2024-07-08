@@ -22,7 +22,13 @@ Develop a basic To-Do application using ReactJS that allows users to add, view, 
   4. **Edit Task**: Each task should have an edit button that, when clicked, task popup opens from the list.
   5. **Optional Features**:
      + Mark tasks as completed.
-     + Save tasks to local storage to persist data on page reload. 
+     + Save tasks to local storage to persist data on page reload.
+  
+  ### Implementation Files
+   + src/components/TaskInput/index.js
+   + src/components/TaskInput/index.css
+   + src/components/TaskList/index.js
+   + src/components/TaskList/index.css
   
 ### Bonus (Optional)
 
