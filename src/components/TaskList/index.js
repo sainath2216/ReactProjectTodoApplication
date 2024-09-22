@@ -52,7 +52,7 @@ const TaskList = props=>{
                 <img
                     src="https://cdn-icons-png.flaticon.com/128/6861/6861362.png"
                     className="delete-logo"
-                    alt="delete"
+                    alt="delete icon"
                 />
                 </button>
               

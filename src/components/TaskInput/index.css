@@ -65,28 +65,40 @@
     align-self: flex-start;
   }
   .My-heading{
-    color: black;
+    color: #000000;
     text-align: center;
     font-family: "Roboto";
-    font-size: 42px;
+    font-size: 28px;
     font-weight: bold;
     margin-top: 18px;
     margin-bottom: 18px;
     font-family: "Sans-serif";
   }
+@media screen and (min-width:768px){
+    .my-heading{
+        font-size: 42px;
+    }
+}
+
 .to-do-heading{
-    background-color: yellow;
+    background-color: #Ffff00;
 }
 
 .label{
     font-family: "Roboto";
-   font-size: 32px;
+   font-size: 25px;
    font-weight: 500;
 }
 .create-heading{
    font-family: "Roboto";
-   font-size: 32px;
+   font-size: 28px;
    font-weight: 700;
+   
+}
+@media screen and (min-width:768px){
+    .create-heading{
+        font-size: 32px;
+    }
 }
 .add-task-container{
     display: flex;
@@ -104,7 +116,7 @@
     border: 1px solid #b5b7c4;
     width: 100%;
     margin-top: 22px;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 }
 .my-task-heading{
     font-family: "Roboto";
@@ -126,8 +138,9 @@
 
 @media screen and (max-width:578px){
     .img{
-        height: 120px;
+        height: 100px;
         width: 150px;
         align-self: center;
     }
+    
 }

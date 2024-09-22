@@ -37,10 +37,6 @@ class TaskInput extends Component{
     onAddTask = event =>{
         event.preventDefault()
         const {taskInput} = this.state
-        if(taskInput === ""){
-            alert("Task cannot be empty!")
-            return
-        }
 
         const newTask = {
             id: v4(),
@@ -51,7 +47,6 @@ class TaskInput extends Component{
             todoList: [...prevState.todoList, newTask],
             taskInput: "",
         }))
-        
     } 
     onChangeTittle= event =>{
         this.setState({taskInput: event.target.value})
@@ -112,7 +107,7 @@ class TaskInput extends Component{
                                 
                             </form>
                             <img
-                                src="https://th.bing.com/th/id/OIP.ZXdr-EvzI83oxt1ccO6oNAHaFY?rs=1&pid=ImgDetMain"
+                                src="https://th.bing.com/th/id/OIP.0aRkG7SSk6ziGRrjkgPRfwAAAA?w=163&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                                 alt="todoimage"
                                 className="img"
                             />
