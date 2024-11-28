@@ -1,5 +1,6 @@
 import {Component} from "react"
 import {v4} from 'uuid'
+
 import './index.css'
 import TaskList from "../TaskList"
 
@@ -104,7 +105,7 @@ class TaskInput extends Component{
                                     type="text"
                                     placeholder="Enter Task"
                                     id="task"
-                                    className="input"
+                                    className="task-input"
                                     value={taskInput}
                                     onChange={this.onChangeTittle}
                                 />

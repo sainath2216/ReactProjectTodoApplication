@@ -1,11 +1,25 @@
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom";
 
-import './App.css';
-import TaskInput from './components/TaskInput'
+import Login from "./components/Login";
+import Register from "./components/Register";
+import TaskInput from "./components/TaskInput";
+
+import "./App.css";
+
+
 function App() {
   return (
-    <div className="App">
-      <TaskInput />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Login} />
+        <Route exact path="/Register" component={Register} />
+        <Route exact path="/home" component={TaskInput} /> 
+      </Switch>
+    </Router>
   );
 }
 
