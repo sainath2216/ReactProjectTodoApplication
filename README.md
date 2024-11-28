@@ -3,7 +3,7 @@
 Develop a basic To-Do application using ReactJS that allows users to add, view, and delete tasks. This application should showcase your understanding of HTML, CSS, JavaScript, React components, hooks, and state management using Redux.
 
 ## Refer to the image below:
-![image](https://github.com/sainath2216/ReactProjectTodoApplication/assets/160031018/dbd67940-5043-4cbf-bfc2-7ce59a6e5fd3)
+![image](https://github.com/sainath2216/ReactProjectTodoApplication/blob/main/Screenshot%20(125).png?raw=true)
 
 ### Set Up Instructions
 + Download dependencies by running npm install
