@@ -36,7 +36,7 @@ class Login extends Component {
     Cookies.set("jwt_token", jwtToken, {
       expires: 30,
     });
-    history.replace("/home");
+    history.replace("/");
   };
 
   onSubmitFailure = (errorMesg) => {
