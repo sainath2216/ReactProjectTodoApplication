@@ -7,6 +7,7 @@ import {
 import Login from "./components/Login";
 import Register from "./components/Register";
 import TaskInput from "./components/TaskInput";
+import ProtectedRoute from './components/ProtectedRoute'
 
 import "./App.css";
 
@@ -17,7 +18,7 @@ function App() {
       <Switch>
         <Route exact path="/login" component={Login} />
         <Route exact path="/Register" component={Register} />
-        <Route exact path="/" component={TaskInput} /> 
+        <ProtectedRoute exact path="/" component={TaskInput} /> 
       </Switch>
     </Router>
   );

@@ -97,7 +97,7 @@ class TaskInput extends Component {
   handleSignOut = () => {
     Cookies.remove('jwt_token')
     const {history} = this.props
-    history.replace('/login')// Redirect to the root path
+    history.replace('/')// Redirect to the root path
   };
 
   render() {
